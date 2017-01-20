@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{CA46434F-A77A-313A-B189-7CC88C4E1A2A}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>App_ExampleBrowser</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Choi\Desktop\tutorial\build\examples\ExampleBrowser\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">App_ExampleBrowser.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">App_ExampleBrowser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Choi\Desktop\tutorial\build\examples\ExampleBrowser\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">App_ExampleBrowser.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">App_ExampleBrowser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Choi\Desktop\tutorial\build\examples\ExampleBrowser\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">App_ExampleBrowser.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">App_ExampleBrowser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Choi\Desktop\tutorial\build\examples\ExampleBrowser\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">App_ExampleBrowser.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">App_ExampleBrowser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\.;C:\Users\Choi\Desktop\bullet3-2.85.1\src;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\Glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_DEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLEW_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_DEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLEW_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\.;C:\Users\Choi\Desktop\bullet3-2.85.1\src;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\Glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\.;C:\Users\Choi\Desktop\bullet3-2.85.1\src;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\Glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/Choi/Desktop/bullet3-2.85.1/data C:/Users/Choi/Desktop/tutorial/build/data
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\BulletExampleBrowserLib_Debug.lib;..\..\lib\Debug\Bullet3Common_Debug.lib;..\..\lib\Debug\BulletSoftBody_Debug.lib;..\..\lib\Debug\BulletDynamics_Debug.lib;..\..\lib\Debug\BulletCollision_Debug.lib;..\..\lib\Debug\BulletInverseDynamicsUtils_Debug.lib;..\..\lib\Debug\BulletInverseDynamics_Debug.lib;..\..\lib\Debug\LinearMath_Debug.lib;..\..\lib\Debug\OpenGLWindow_Debug.lib;..\..\lib\Debug\gwen_Debug.lib;..\..\lib\Debug\BussIK_Debug.lib;opengl32.lib;glu32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Choi/Desktop/tutorial/build/examples/ExampleBrowser/Debug/App_ExampleBrowser.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Choi/Desktop/tutorial/build/examples/ExampleBrowser/Debug/App_ExampleBrowser.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\.;C:\Users\Choi\Desktop\bullet3-2.85.1\src;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\Glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLEW_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLEW_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\.;C:\Users\Choi\Desktop\bullet3-2.85.1\src;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\Glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\.;C:\Users\Choi\Desktop\bullet3-2.85.1\src;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\Glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/Choi/Desktop/bullet3-2.85.1/data C:/Users/Choi/Desktop/tutorial/build/data
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\BulletExampleBrowserLib.lib;..\..\lib\Release\Bullet3Common.lib;..\..\lib\Release\BulletSoftBody.lib;..\..\lib\Release\BulletDynamics.lib;..\..\lib\Release\BulletCollision.lib;..\..\lib\Release\BulletInverseDynamicsUtils.lib;..\..\lib\Release\BulletInverseDynamics.lib;..\..\lib\Release\LinearMath.lib;..\..\lib\Release\OpenGLWindow.lib;..\..\lib\Release\gwen.lib;..\..\lib\Release\BussIK.lib;opengl32.lib;glu32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Choi/Desktop/tutorial/build/examples/ExampleBrowser/Release/App_ExampleBrowser.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Choi/Desktop/tutorial/build/examples/ExampleBrowser/Release/App_ExampleBrowser.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\.;C:\Users\Choi\Desktop\bullet3-2.85.1\src;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\Glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLEW_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLEW_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\.;C:\Users\Choi\Desktop\bullet3-2.85.1\src;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\Glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\.;C:\Users\Choi\Desktop\bullet3-2.85.1\src;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\Glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/Choi/Desktop/bullet3-2.85.1/data C:/Users/Choi/Desktop/tutorial/build/data
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\BulletExampleBrowserLib_MinsizeRel.lib;..\..\lib\MinSizeRel\Bullet3Common_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletSoftBody_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletDynamics_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletCollision_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletInverseDynamicsUtils_MinsizeRel.lib;..\..\lib\MinSizeRel\BulletInverseDynamics_MinsizeRel.lib;..\..\lib\MinSizeRel\LinearMath_MinsizeRel.lib;..\..\lib\MinSizeRel\OpenGLWindow_MinsizeRel.lib;..\..\lib\MinSizeRel\gwen_MinsizeRel.lib;..\..\lib\MinSizeRel\BussIK_MinsizeRel.lib;opengl32.lib;glu32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Choi/Desktop/tutorial/build/examples/ExampleBrowser/MinSizeRel/App_ExampleBrowser.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Choi/Desktop/tutorial/build/examples/ExampleBrowser/MinSizeRel/App_ExampleBrowser.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\.;C:\Users\Choi\Desktop\bullet3-2.85.1\src;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\Glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLEW_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLEW_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\.;C:\Users\Choi\Desktop\bullet3-2.85.1\src;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\Glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\.;C:\Users\Choi\Desktop\bullet3-2.85.1\src;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\Glew;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/Choi/Desktop/bullet3-2.85.1/data C:/Users/Choi/Desktop/tutorial/build/data
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\BulletExampleBrowserLib_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\Bullet3Common_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletSoftBody_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletDynamics_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletCollision_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletInverseDynamicsUtils_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BulletInverseDynamics_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\LinearMath_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\OpenGLWindow_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\gwen_RelWithDebugInfo.lib;..\..\lib\RelWithDebInfo\BussIK_RelWithDebugInfo.lib;opengl32.lib;glu32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Choi/Desktop/tutorial/build/examples/ExampleBrowser/RelWithDebInfo/App_ExampleBrowser.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Choi/Desktop/tutorial/build/examples/ExampleBrowser/RelWithDebInfo/App_ExampleBrowser.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Choi/Desktop/bullet3-2.85.1/examples/ExampleBrowser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Choi/Desktop/bullet3-2.85.1 -BC:/Users/Choi/Desktop/tutorial/build --check-stamp-file C:\Users\Choi\Desktop\tutorial\build\examples\ExampleBrowser\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Choi/Desktop/bullet3-2.85.1/examples/ExampleBrowser/CMakeLists.txt;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\CMakeLists.txt;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Choi\Desktop\tutorial\build\examples\ExampleBrowser\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Choi/Desktop/bullet3-2.85.1/examples/ExampleBrowser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Choi/Desktop/bullet3-2.85.1 -BC:/Users/Choi/Desktop/tutorial/build --check-stamp-file C:\Users\Choi\Desktop\tutorial\build\examples\ExampleBrowser\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Choi/Desktop/bullet3-2.85.1/examples/ExampleBrowser/CMakeLists.txt;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\CMakeLists.txt;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Choi\Desktop\tutorial\build\examples\ExampleBrowser\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Choi/Desktop/bullet3-2.85.1/examples/ExampleBrowser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Choi/Desktop/bullet3-2.85.1 -BC:/Users/Choi/Desktop/tutorial/build --check-stamp-file C:\Users\Choi\Desktop\tutorial\build\examples\ExampleBrowser\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Choi/Desktop/bullet3-2.85.1/examples/ExampleBrowser/CMakeLists.txt;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\CMakeLists.txt;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Choi\Desktop\tutorial\build\examples\ExampleBrowser\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Choi/Desktop/bullet3-2.85.1/examples/ExampleBrowser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Choi/Desktop/bullet3-2.85.1 -BC:/Users/Choi/Desktop/tutorial/build --check-stamp-file C:\Users\Choi\Desktop\tutorial\build\examples\ExampleBrowser\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Choi/Desktop/bullet3-2.85.1/examples/ExampleBrowser/CMakeLists.txt;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\CMakeLists.txt;C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Choi\Desktop\tutorial\build\examples\ExampleBrowser\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\bullet3-2.85.1\examples\MultiBody\InvertedPendulumPDControl.h" />
+    <ClInclude Include="..\..\..\..\bullet3-2.85.1\examples\MultiBody\Pendulum.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\ExampleEntries.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\TinyRendererVisualShapeConverter.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\IKTrajectoryHelper.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsDirect.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsDirectC_API.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsLoopBack.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsLoopBackC_API.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Collision\CollisionSdkC_Api.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Collision\Internal\Bullet2CollisionSdk.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Collision\Internal\CollisionSdkInterface.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Collision\Internal\RealTimeBullet3CollisionSdk.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\FractureDemo\btFractureBody.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\FractureDemo\btFractureDynamicsWorld.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\RenderingExamples\TimeSeriesCanvas.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\RenderingExamples\TimeSeriesFontData.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\RenderingExamples\TinyVRGui.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\RoboticsLearning\b3RobotSimAPI.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Benchmarks\landscapeData.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Benchmarks\TaruData.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportBsp\BspConverter.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportBsp\BspLoader.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportColladaDemo\btMatrix4x4.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportObjDemo\LoadMeshFromObj.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportSTLDemo\LoadMeshFromSTL.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\ConvertRigidBodies2MultiBody.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\URDF2Bullet.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\urdf_samples.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\urdfStringSplit.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\BulletUrdfImporter.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\VoronoiFracture\btConvexConvexMprAlgorithm.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Constraints\TestHingeTorque.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Constraints\ConstraintPhysicsSetup.h" />
+    <ClInclude Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\stb_image\stb_image.h" />
+    <ClCompile Include="..\..\..\..\bullet3-2.85.1\examples\MultiBody\InvertedPendulumPDControl.cpp" />
+    <ClCompile Include="..\..\..\..\bullet3-2.85.1\examples\MultiBody\Pendulum.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\main.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\ExampleEntries.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\TinyRenderer\geometry.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\TinyRenderer\model.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\TinyRenderer\tgaimage.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\TinyRenderer\our_gl.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\TinyRenderer\TinyRenderer.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\IKTrajectoryHelper.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServer.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsClientSharedMemory.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsClient.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsClientC_API.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PosixSharedMemory.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\Win32SharedMemory.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\InProcessMemory.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerSharedMemory.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsDirect.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsDirectC_API.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\SharedMemoryInProcessPhysicsC_API.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsLoopBack.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsLoopBackC_API.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Collision\CollisionSdkC_Api.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Collision\Internal\Bullet2CollisionSdk.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Collision\Internal\RealTimeBullet3CollisionSdk.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\FractureDemo\btFractureBody.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\FractureDemo\btFractureDynamicsWorld.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\MultiThreading\b3PosixThreadSupport.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\MultiThreading\b3Win32ThreadSupport.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\MultiThreading\b3ThreadSupportInterface.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\RenderingExamples\TimeSeriesCanvas.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\RenderingExamples\TimeSeriesFontData.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\RenderingExamples\TinyVRGui.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\RoboticsLearning\b3RobotSimAPI.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\Serialize\BulletFileLoader\bChunk.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\Serialize\BulletFileLoader\bFile.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\Serialize\BulletFileLoader\bDNA.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\Serialize\BulletFileLoader\btBulletFile.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportBsp\BspConverter.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportBsp\BspLoader.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\UrdfParser.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\VoronoiFracture\btConvexConvexMprAlgorithm.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Constraints\TestHingeTorque.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\stb_image\stb_image.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\tinyxml\tinystr.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ThirdPartyLibs\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\InProcessExampleBrowser.cpp" />
+    <ResourceCompile Include="C:\Users\Choi\Desktop\bullet3-2.85.1\build3\bullet.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Choi/Desktop/tutorial/build/ZERO_CHECK.vcxproj">
+      <Project>09F75C5B-6B58-3692-9088-15E3419BAF84</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Choi/Desktop/tutorial/build/src/Bullet3Common/Bullet3Common.vcxproj">
+      <Project>4CBE1D64-FACB-385B-AF73-01CB3BFDAFA8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Choi/Desktop/tutorial/build/src/BulletCollision/BulletCollision.vcxproj">
+      <Project>86D73719-B5C4-320D-9E41-DE6BAF027D7A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Choi/Desktop/tutorial/build/src/BulletDynamics/BulletDynamics.vcxproj">
+      <Project>250D6743-8B9C-3155-B879-4D94D8C76A0B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Choi/Desktop/tutorial/build/examples/ExampleBrowser/BulletExampleBrowserLib.vcxproj">
+      <Project>6A153360-1876-3E09-AD44-CBB9E104A992</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Choi/Desktop/tutorial/build/src/BulletInverseDynamics/BulletInverseDynamics.vcxproj">
+      <Project>6A765ED5-5EDE-3AA2-932B-8F2A40E8D5A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Choi/Desktop/tutorial/build/Extras/InverseDynamics/BulletInverseDynamicsUtils.vcxproj">
+      <Project>24EC55E1-F03F-39B8-8DA0-3605F4785D0D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Choi/Desktop/tutorial/build/src/BulletSoftBody/BulletSoftBody.vcxproj">
+      <Project>EFF5BEF7-93B8-35D9-A3B9-A80F7EA482A1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Choi/Desktop/tutorial/build/examples/ThirdPartyLibs/BussIK/BussIK.vcxproj">
+      <Project>497C9EEF-7763-3351-8BE4-DE30F8493B6F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Choi/Desktop/tutorial/build/src/LinearMath/LinearMath.vcxproj">
+      <Project>E9D63655-347F-3846-B609-C82CC4539605</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Choi/Desktop/tutorial/build/examples/OpenGLWindow/OpenGLWindow.vcxproj">
+      <Project>97A59767-BA2C-3D3C-9691-E9829044078F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Choi/Desktop/tutorial/build/examples/ThirdPartyLibs/Gwen/gwen.vcxproj">
+      <Project>7D11F8F8-2BA3-3FF9-B7EF-3B620866446B</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

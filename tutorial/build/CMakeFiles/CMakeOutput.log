@@ -1,0 +1,338 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine 버전 14.0.25420.1]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2017-01-08 오후 3:17:12
+1 노드의 "C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\3.7.1\CompilerIdC\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "Debug\" 디렉터리를 만들고 있습니다.
+  "Debug\CompilerIdC.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\CompilerIdC.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\3.7.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  "Debug\CompilerIdC.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\3.7.1\CompilerIdC\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:01.04
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/3.7.1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine 버전 14.0.25420.1]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2017-01-08 오후 3:17:13
+1 노드의 "C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\3.7.1\CompilerIdCXX\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "Debug\" 디렉터리를 만들고 있습니다.
+  "Debug\CompilerIdCXX.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\CompilerIdCXX.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\3.7.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\3.7.1\CompilerIdCXX\CompilerIdCXX.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:01.09
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/3.7.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_80688.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine 버전 14.0.25420.1]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2017-01-08 오후 3:17:15
+1 노드의 "C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\cmTC_80688.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_80688.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_80688.dir\Debug\cmTC_80688.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_80688.dir\Debug\cmTC_80688.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80688.dir\Debug\\" /Fd"cmTC_80688.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80688.dir\Debug\\" /Fd"cmTC_80688.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\cmTC_80688.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp/Debug/cmTC_80688.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp/Debug/cmTC_80688.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_80688.dir\Debug\testCCompiler.obj
+  cmTC_80688.vcxproj -> C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\cmTC_80688.exe
+FinalizeBuildStatus:
+  "cmTC_80688.dir\Debug\cmTC_80688.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTC_80688.dir\Debug\cmTC_80688.tlog\cmTC_80688.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\cmTC_80688.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:01.12
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_8900d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine 버전 14.0.25420.1]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2017-01-08 오후 3:17:16
+1 노드의 "C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\cmTC_8900d.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_8900d.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_8900d.dir\Debug\cmTC_8900d.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_8900d.dir\Debug\cmTC_8900d.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8900d.dir\Debug\\" /Fd"cmTC_8900d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8900d.dir\Debug\\" /Fd"cmTC_8900d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\cmTC_8900d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp/Debug/cmTC_8900d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp/Debug/cmTC_8900d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8900d.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_8900d.vcxproj -> C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\cmTC_8900d.exe
+FinalizeBuildStatus:
+  "cmTC_8900d.dir\Debug\cmTC_8900d.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTC_8900d.dir\Debug\cmTC_8900d.tlog\cmTC_8900d.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\cmTC_8900d.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:01.16
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3f46f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine 버전 14.0.25420.1]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2017-01-08 오후 3:17:18
+1 노드의 "C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\cmTC_3f46f.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_3f46f.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_3f46f.dir\Debug\cmTC_3f46f.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_3f46f.dir\Debug\cmTC_3f46f.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3f46f.dir\Debug\\" /Fd"cmTC_3f46f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3f46f.dir\Debug\\" /Fd"cmTC_3f46f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\cmTC_3f46f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp/Debug/cmTC_3f46f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp/Debug/cmTC_3f46f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3f46f.dir\Debug\testCXXCompiler.obj
+  cmTC_3f46f.vcxproj -> C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\cmTC_3f46f.exe
+FinalizeBuildStatus:
+  "cmTC_3f46f.dir\Debug\cmTC_3f46f.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTC_3f46f.dir\Debug\cmTC_3f46f.tlog\cmTC_3f46f.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\cmTC_3f46f.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:01.17
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bccfe.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine 버전 14.0.25420.1]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2017-01-08 오후 3:17:19
+1 노드의 "C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\cmTC_bccfe.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_bccfe.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_bccfe.dir\Debug\cmTC_bccfe.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_bccfe.dir\Debug\cmTC_bccfe.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bccfe.dir\Debug\\" /Fd"cmTC_bccfe.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bccfe.dir\Debug\\" /Fd"cmTC_bccfe.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\cmTC_bccfe.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp/Debug/cmTC_bccfe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp/Debug/cmTC_bccfe.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bccfe.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_bccfe.vcxproj -> C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\cmTC_bccfe.exe
+FinalizeBuildStatus:
+  "cmTC_bccfe.dir\Debug\cmTC_bccfe.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTC_bccfe.dir\Debug\cmTC_bccfe.tlog\cmTC_bccfe.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\cmTC_bccfe.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:01.24
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2b137.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine 버전 14.0.25420.1]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2017-01-08 오후 3:17:21
+1 노드의 "C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\cmTC_2b137.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_2b137.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_2b137.dir\Debug\cmTC_2b137.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_2b137.dir\Debug\cmTC_2b137.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2b137.dir\Debug\\" /Fd"cmTC_2b137.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24210 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2b137.dir\Debug\\" /Fd"cmTC_2b137.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\cmTC_2b137.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp/Debug/cmTC_2b137.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Choi/Desktop/tutorial/build/CMakeFiles/CMakeTmp/Debug/cmTC_2b137.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_2b137.dir\Debug\feature_tests.obj
+  cmTC_2b137.vcxproj -> C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\Debug\cmTC_2b137.exe
+FinalizeBuildStatus:
+  "cmTC_2b137.dir\Debug\cmTC_2b137.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTC_2b137.dir\Debug\cmTC_2b137.tlog\cmTC_2b137.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\Choi\Desktop\tutorial\build\CMakeFiles\CMakeTmp\cmTC_2b137.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:01.12
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

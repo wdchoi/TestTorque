@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Users/Choi/Desktop/bullet3-2.85.1/test/InverseDynamics/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Choi\Desktop\tutorial\build\test\InverseDynamics\CMakeFiles\generate.stamp is up-to-date.
+  test_invdyn_jacobian.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\InverseDynamics\CoilCreator.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\InverseDynamics\DillCreator.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\Choi\Desktop\bullet3-2.85.1\test\InverseDynamics\test_invdyn_jacobian.cpp(79): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Choi\Desktop\bullet3-2.85.1\test\InverseDynamics\test_invdyn_jacobian.cpp(137): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Choi\Desktop\bullet3-2.85.1\test\InverseDynamics\test_invdyn_jacobian.cpp(214): warning C4018: '<': signed/unsigned mismatch
+  Test_BulletInverseDynamicsJacobian.vcxproj -> C:\Users\Choi\Desktop\tutorial\build\test\InverseDynamics\Debug\Test_BulletInverseDynamicsJacobian.exe

@@ -1,0 +1,4 @@
+﻿Null.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+Query.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+ImagePanel.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  gwen.vcxproj -> C:\Users\Choi\Desktop\tutorial\build\lib\Debug\gwen_Debug.lib

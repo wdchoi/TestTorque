@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/Choi/Desktop/bullet3-2.85.1/examples/BasicDemo/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Choi\Desktop\tutorial\build\examples\BasicDemo\CMakeFiles\generate.stamp is up-to-date.
+  BasicExample.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\BasicDemo\BasicExample.cpp(142): warning C4316: 'BasicExample': object allocated on the heap may not be aligned 16
+  main_opengl_single_example.cpp
+  OpenGLGuiHelper.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\OpenGLGuiHelper.cpp(347): warning C4316: 'MyDebugDrawer': object allocated on the heap may not be aligned 16
+  GL_ShapeDrawer.cpp
+  CollisionShape2TriangleMesh.cpp
+  b3Clock.cpp
+  Generating Code...
+  AppBasicExampleGui.vcxproj -> C:\Users\Choi\Desktop\tutorial\build\examples\BasicDemo\Debug\AppBasicExampleGui.exe

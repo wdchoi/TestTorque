@@ -1,0 +1,64 @@
+﻿  Building Custom Rule C:/Users/Choi/Desktop/bullet3-2.85.1/examples/BasicDemo/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Choi\Desktop\tutorial\build\examples\BasicDemo\CMakeFiles\generate.stamp is up-to-date.
+  main_opengl_single_example.cpp
+  OpenGLGuiHelper.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\ExampleBrowser\OpenGLGuiHelper.cpp(347): warning C4316: 'MyDebugDrawer': object allocated on the heap may not be aligned 16
+  GL_ShapeDrawer.cpp
+  CollisionShape2TriangleMesh.cpp
+  b3Clock.cpp
+  Generating Code...
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+opengl32.lib(OPENGL32.dll) : error LNK2026: module unsafe for SAFESEH image.
+C:\Users\Choi\Desktop\tutorial\build\examples\BasicDemo\MinSizeRel\AppBasicExampleGui.exe : fatal error LNK1281: Unable to generate SAFESEH image.

@@ -1,0 +1,14 @@
+﻿  Building Custom Rule C:/Users/Choi/Desktop/bullet3-2.85.1/Extras/Serialize/BulletWorldImporter/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Choi\Desktop\tutorial\build\Extras\Serialize\BulletWorldImporter\CMakeFiles\generate.stamp is up-to-date.
+  btBulletWorldImporter.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\src\BulletCollision/Gimpact/btGImpactShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  btWorldImporter.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1000): warning C4800: 'char': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1004): warning C4800: 'char': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1007): warning C4800: 'char': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1327): warning C4800: 'char': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1330): warning C4800: 'char': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1334): warning C4800: 'char': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Choi\Desktop\bullet3-2.85.1\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp(1337): warning C4800: 'char': forcing value to bool 'true' or 'false' (performance warning)
+  Generating Code...
+  BulletWorldImporter.vcxproj -> C:\Users\Choi\Desktop\tutorial\build\lib\Debug\BulletWorldImporter_Debug.lib

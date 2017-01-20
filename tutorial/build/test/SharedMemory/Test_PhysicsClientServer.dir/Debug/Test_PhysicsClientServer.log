@@ -1,0 +1,81 @@
+﻿  Building Custom Rule C:/Users/Choi/Desktop/bullet3-2.85.1/test/SharedMemory/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Choi\Desktop\tutorial\build\test\SharedMemory\CMakeFiles\generate.stamp is up-to-date.
+  gtestwrap.cpp
+  PhysicsClient.cpp
+  IKTrajectoryHelper.cpp
+  PhysicsServer.cpp
+  PhysicsServerSharedMemory.cpp
+  PhysicsDirect.cpp
+  PhysicsDirectC_API.cpp
+  PhysicsServerCommandProcessor.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(587): warning C4316: 'PhysicsServerCommandProcessorInternalData': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(1523): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(1569): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(1570): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(1626): warning C4316: 'btMultiBodyJointFeedback': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(2718): warning C4316: 'btMultiBodyFixedConstraint': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(2724): warning C4316: 'btMultiBodyFixedConstraint': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(2734): warning C4316: 'btMultiBodySliderConstraint': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(2740): warning C4316: 'btMultiBodySliderConstraint': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(2749): warning C4316: 'btMultiBodyPoint2Point': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(2755): warning C4316: 'btMultiBodyPoint2Point': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(3007): warning C4316: 'btMultiBodyPoint2Point': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(3185): warning C4316: 'btMultiBodyFixedConstraint': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(3243): warning C4316: 'btMultiBodyPoint2Point': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(3245): warning C4316: 'btMultiBodyPoint2Point': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsServerCommandProcessor.cpp(3261): warning C4316: 'btMultiBodyFixedConstraint': object allocated on the heap may not be aligned 16
+  PhysicsClientSharedMemory.cpp
+  PhysicsClientC_API.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\PhysicsClientC_API.cpp(163): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  PhysicsLoopBack.cpp
+  PhysicsLoopBackC_API.cpp
+  Win32SharedMemory.cpp
+  PosixSharedMemory.cpp
+  b3ResourcePath.cpp
+  TinyRendererVisualShapeConverter.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\SharedMemory\TinyRendererVisualShapeConverter.cpp(493): warning C4316: 'TinyRenderObjectData': object allocated on the heap may not be aligned 16
+  SimpleCamera.cpp
+  geometry.cpp
+  model.cpp
+  tgaimage.cpp
+  Generating Code...
+  Compiling...
+  our_gl.cpp
+  TinyRenderer.cpp
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  tiny_obj_loader.cpp
+  LoadMeshFromCollada.cpp
+  LoadMeshFromObj.cpp
+  Wavefront2GLInstanceGraphicsShape.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(36): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(52): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(79): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp(104): warning C4018: '<': signed/unsigned mismatch
+  BulletUrdfImporter.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(74): warning C4316: 'BulletURDFInternalData': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(122): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp(174): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  MyMultiBodyCreator.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(65): warning C4316: 'GenericConstraintUserInfo': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(148): warning C4316: 'GenericConstraintUserInfo': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp(172): warning C4316: 'GenericConstraintUserInfo': object allocated on the heap may not be aligned 16
+  URDF2Bullet.cpp
+  UrdfParser.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\UrdfParser.cpp(539): warning C4316: 'UrdfMaterial': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\UrdfParser.cpp(572): warning C4316: 'UrdfMaterial': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1296): warning C4316: 'UrdfMaterial': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1319): warning C4316: 'UrdfLink': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1367): warning C4316: 'UrdfJoint': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1455): warning C4316: 'UrdfModel': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1491): warning C4316: 'UrdfMaterial': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1514): warning C4316: 'UrdfLink': object allocated on the heap may not be aligned 16
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportURDFDemo\UrdfParser.cpp(1562): warning C4316: 'UrdfJoint': object allocated on the heap may not be aligned 16
+  urdfStringSplit.cpp
+  b3ImportMeshUtility.cpp
+C:\Users\Choi\Desktop\bullet3-2.85.1\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp(36): warning C4018: '<': signed/unsigned mismatch
+  stb_image.cpp
+  Generating Code...
+  Test_PhysicsClientServer.vcxproj -> C:\Users\Choi\Desktop\tutorial\build\test\SharedMemory\Debug\Test_PhysicsClientServer.exe
